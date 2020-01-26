@@ -1,7 +1,7 @@
 <svg id="performance" display="none">
 
   <use href="#main-question">
-    <set href="text" attributeName="text-buffer" to="How is your performance?" />
+    <set href="text" attributeName="text-buffer" to="Your Performance?" />
   </use>
 
   <use href="#button" id="neutral-performance" pointer-events="visible">

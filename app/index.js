@@ -199,9 +199,9 @@ const k_performance = document.getElementById("performance");
 let flow_views = [thankyou];
 // Used to set all views to none when switching between screens
 const allViews = [warmCold, brightDim, loudQuiet, indoorOutdoor, inOffice, 
-                            happySad, clothing, svg_air_vel, svg_met, svg_change, clockface, 
-                            thankyou, clockblock, svg_stop_survey,
-                            k_concentration, k_stress, k_performance];
+                            happySad, clothing, svg_air_vel, svg_met, svg_change,
+                            k_concentration, k_stress, k_performance,
+                            clockface, thankyou, clockblock, svg_stop_survey];
 let flowSelectorUpdateTime = 0;
 
 //read small icons 
@@ -699,9 +699,11 @@ for (const button of buttons) {
         if (button.attribute !== 'flow_control') {
 
             feedbackData[button.attribute] = button.value;
-
+            console.log(JSON.stringify(flow_views))
+            console.log(flow_views[currentView])
             if (flow_views[currentView] === thankyou) {
                 // if all the views have already been shown
+                console.log("showing thankyou")
                 showThankYou();
             } else {
                 showFace(flow_views[currentView])

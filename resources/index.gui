@@ -21,7 +21,7 @@
 
   <g id="small-k-performance" opacity="0.2">
     <circle cx="65" cy="240" r="6" fill="#7090B5"  />
-    <image id="image" x="60" y="235" width="10" height="10" href="images/icons/met_exercising.png" load="sync" />
+    <image id="image" x="60" y="235" width="10" height="10" href="images/icons/happy.png" load="sync" />
   </g>
 
   <g id="small-any-change" opacity="0.2">
@@ -70,17 +70,17 @@
 
   <g id="small-met" opacity="0.2">
     <circle cx="265" cy="240" r="6" fill="#7090B5"  />
-    <image id="image" x="260" y="235" width="10" height="10" href="images/icons/met_exercising.png" load="sync" />
+    <image id="image" x="260" y="235" width="10" height="10" href="images/icons/happy.png" load="sync" />
   </g>
 
   <g id="small-k-concentration" opacity="0.2">
     <circle cx="285" cy="240" r="6" fill="#7090B5"  />
-    <image id="image" x="280" y="235" width="10" height="10" href="images/icons/met_exercising.png" load="sync" />
+    <image id="image" x="280" y="235" width="10" height="10" href="images/icons/happy.png" load="sync" />
   </g>
 
   <g id="small-k-stress" opacity="0.2">
     <circle cx="305" cy="240" r="6" fill="#7090B5"  />
-    <image id="image" x="300" y="235" width="10" height="10" href="images/icons/met_exercising.png" load="sync" />
+    <image id="image" x="300" y="235" width="10" height="10" href="images/icons/happy.png" load="sync" />
   </g>
 
 </svg>

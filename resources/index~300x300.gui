@@ -75,7 +75,7 @@
 
   <g id="small-k-concentration" opacity="0.2">
     <circle cx="260" cy="280" r="6" fill="#7090B5"  />
-    <image id="image" x="255" y="275" width="10" height="10" href="iimages/icons/happy.png" load="sync" />
+    <image id="image" x="255" y="275" width="10" height="10" href="images/icons/happy.png" load="sync" />
   </g>
 
   <g id="small-k-stress" opacity="0.2">
