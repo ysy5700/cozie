@@ -1,0 +1,24 @@
+<svg id="concentration" display="none">
+
+  <use href="#main-question">
+    <set href="text" attributeName="text-buffer" to="How is your concentration?" />
+  </use>
+
+  <use href="#button" id="neutral-concentration" pointer-events="visible">
+    <set href="circle" attributeName="fill" to="fb-green"/>
+    <set href="image" attributeName="href" to="images/icons/nuetral.png"/>
+    <set href="text"  attributeName="text-buffer" to="Neutral" />
+  </use>
+
+  <use href="#left-button" id="poor-concentration" pointer-events="visible">
+    <set href="circle" attributeName="fill" to="fb-orange"/>
+    <set href="image" attributeName="href" to="images/icons/not-comfy.png"/>
+    <set href="text"  attributeName="text-buffer" to="Poor" />
+  </use>
+
+  <use href="#right-button" id="good-concentration" pointer-events="visible">
+    <set href="circle" attributeName="fill" to="fb-cyan"/>
+    <set href="image" attributeName="href" to="images/icons/comfy.png"/>
+    <set href="text"  attributeName="text-buffer" to="Good" />
+  </use>
+</svg>
