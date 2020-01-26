@@ -99,6 +99,24 @@ function mySettings(props) {
                             value: "showMet",
                             subLabel: "No, Yes",
                             img: icon_change
+                        },
+                        {
+                            name: "Concentration",
+                            value: "concentration",
+                            subLabel: "Low, Netural, High",
+                            img: mood
+                        },
+                        {
+                            name: "Stress",
+                            value: "stress",
+                            subLabel: "Low, Netural, High",
+                            img: mood
+                        },
+                        {
+                            name: "Performance",
+                            value: "performance",
+                            subLabel: "Low, Netural, High",
+                            img: mood
                         }
                     ]}
                     renderItem={option => (

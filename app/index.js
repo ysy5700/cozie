@@ -190,10 +190,18 @@ const thankyou = document.getElementById("thankyou");
 const svg_stop_survey = document.getElementById("stopSurvey");
 const clockblock = document.getElementById("clockblock");
 
+//Kajima GUIs
+const k_concentration = document.getElementById("concentration");
+const k_stress = document.getElementById("stress");
+const k_performance = document.getElementById("performance");
+
 // Default shows only thank you screen in the flow
 let flow_views = [thankyou];
 // Used to set all views to none when switching between screens
-const allViews = [warmCold, brightDim, loudQuiet, indoorOutdoor, inOffice, happySad, clothing, svg_air_vel, svg_met, svg_change, clockface, thankyou, clockblock, svg_stop_survey];
+const allViews = [warmCold, brightDim, loudQuiet, indoorOutdoor, inOffice, 
+                            happySad, clothing, svg_air_vel, svg_met, svg_change, clockface, 
+                            thankyou, clockblock, svg_stop_survey,
+                            k_concentration, k_stress, k_performance];
 let flowSelectorUpdateTime = 0;
 
 //read small icons 
@@ -206,7 +214,10 @@ const smallIcons = [document.getElementById("small-thermal"),
     document.getElementById("small-clothing"),
     document.getElementById("small-velocity"),
     document.getElementById("small-met"),
-    document.getElementById("small-any-change"),];
+    document.getElementById("small-any-change"),
+    document.getElementById("small-k-concentration"),
+    document.getElementById("small-k-stress"),
+    document.getElementById("small-k-performance"),];
 
 // Flow may have been previously saved locally as flow.txt
 let flowFileRead;
@@ -368,6 +379,20 @@ const met_exercising = document.getElementById("met_exercising");
 const air_vel_low = document.getElementById('air_vel_low');
 const air_vel_medium = document.getElementById("air_vel_medium");
 const air_vel_high = document.getElementById("air_vel_high");
+
+// Kajima Buttons
+const low_concentration = document.getElementById('low-concentration');
+const neutral_concentration = document.getElementById("neutral-concentration");
+const high_concentration = document.getElementById("high-concentration");
+
+const low_stress = document.getElementById('low-stress');
+const neutral_stress = document.getElementById("neutral-stress");
+const high_stress = document.getElementById("high-stress");
+
+const low_performance = document.getElementById('low-performance');
+const neutral_performance = document.getElementById("neutral-performance");
+const high_performance = document.getElementById("high-performance");
+
 
 function showFace(view_to_display) {
     allViews.map(v => v.style.display = "none");
@@ -601,7 +626,46 @@ let buttons = [{
     value: 11,
     obj: air_vel_high,
     attribute: 'air-vel',
-}];
+}, {
+    value: 9,
+    obj: low_concentration,
+    attribute: 'concentration',
+}, {
+    value: 10,
+    obj: neutral_concentration,
+    attribute: 'concentration',
+}, {
+    value: 11,
+    obj: high_concentration,
+    attribute: 'concentration',
+}, {
+    value: 9,
+    obj: low_performance,
+    attribute: 'performance',
+}, {
+    value: 10,
+    obj: neutral_performance,
+    attribute: 'performance',
+}, {
+    value: 11,
+    obj: high_performance,
+    attribute: 'performance',
+}, {
+    value: 9,
+    obj: low_stress,
+    attribute: 'stress',
+}, {
+    value: 10,
+    obj: neutral_stress,
+    attribute: 'stress',
+}, {
+    value: 11,
+    obj: high_stress,
+    attribute: 'stress',
+}
+
+
+];
 
 for (const button of buttons) {
     button.obj.addEventListener("click", () => {

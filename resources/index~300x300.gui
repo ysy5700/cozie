@@ -15,6 +15,15 @@
   <link rel="import" href="views/metabolic_rate.gui" />
   <link rel="import" href="views/any_change.gui" />
 
+  <link rel="import" href="views/k_concentration.gui" />
+  <link rel="import" href="views/k_stress.gui" />
+  <link rel="import" href="views/k_performance.gui" />
+
+  <g id="small-k-performance" opacity="0.2">
+    <circle cx="40" cy="280" r="6" fill="#7090B5"  />
+    <image id="image" x="35" y="275" width="10" height="10" href="images/icons/happy.png" load="sync" />
+  </g>
+
   <g id="small-any-change" opacity="0.2">
     <circle cx="60" cy="280" r="6" fill="fb-red"  />
   </g>
@@ -63,5 +72,20 @@
     <circle cx="240" cy="280" r="6" fill="#7090B5"  />
     <image id="image" x="235" y="275" width="10" height="10" href="images/icons/met_exercising.png" load="sync" />
   </g>
+
+  <g id="small-k-concentration" opacity="0.2">
+    <circle cx="260" cy="280" r="6" fill="#7090B5"  />
+    <image id="image" x="255" y="275" width="10" height="10" href="iimages/icons/happy.png" load="sync" />
+  </g>
+
+  <g id="small-k-stress" opacity="0.2">
+    <circle cx="280" cy="280" r="6" fill="#7090B5"  />
+    <image id="image" x="275" y="275" width="10" height="10" href="images/icons/happy.png" load="sync" />
+  </g>
+
+
+
+
+
 </svg>
 
