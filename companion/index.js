@@ -113,7 +113,7 @@ processAllFiles();
 
 function sendDataToInflux(data) {
 
-    let url = `https://ay1bwnlt74.execute-api.us-east-1.amazonaws.com/test`;
+    let url = `https://ay1bwnlt74.execute-api.us-east-1.amazonaws.com/test/`;
 
     //get experiment id and set empty value to "default"
     // try {
