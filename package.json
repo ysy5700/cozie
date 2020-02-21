@@ -1,9 +1,9 @@
 {
   "fitbit": {
     "appType": "clockface",
-    "appDisplayName": "cozie",
+    "appDisplayName": "cozie-kajima",
     "iconFile": "resources/icon.png",
-    "wipeColor": "",
+    "wipeColor": "#ffffff",
     "requestedPermissions": [
       "access_heart_rate",
       "access_location",
@@ -20,18 +20,18 @@
     ],
     "i18n": {
       "en": {
-        "name": "cozie"
+        "name": "cozie-kajima"
       }
     },
     "defaultLanguage": "en-US",
-    "appUUID": "d787c911-ce11-432e-8b68-69da0f3446c8"
+    "appUUID": "9e178edd-c2f0-416d-9238-5bf9ca7d15c4"
   },
   "devDependencies": {
-    "@fitbit/sdk": "~4.0.0",
+    "@fitbit/sdk": "~4.1",
     "@fitbit/sdk-cli": "^1.7.1"
   },
   "dependencies": {
-    "@fitbit/sdk": "~4.0.0",
+    "@fitbit/sdk": "~4.1",
     "@fitbit/sdk-cli": "^1.7.1"
   },
   "scripts": {

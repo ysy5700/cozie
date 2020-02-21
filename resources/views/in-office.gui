@@ -1,13 +1,14 @@
 <svg id="inoffice" display="none">
 
   <use href="#main-question">
-    <set href="text" attributeName="text-buffer" to="Are you near a sensor?" />
+    <set href="text" attributeName="text-buffer" to="Where are you?" />
   </use>
 
   <use href="#button" id="location_other" pointer-events="visible">
     <set href="circle" attributeName="fill" to="fb-peach"/>
-    <set href="image" attributeName="href" to="images/icons/no.png"/>
-    <set href="text"  attributeName="text-buffer" to="" />
+    <set href="image" attributeName="href" to="images/icons/outdoor.png"/>
+    <set href="text"  attributeName="text-buffer" to="Niether" />
+    <set href="text"  attributeName="y" to="66%" />
     <set href="circle" attributeName="cy" to="44%" />
     <set href="circle_push" attributeName="cy" to="44%" />
     <set href="image" attributeName="y" to="44%-35" />
@@ -27,7 +28,7 @@
     <set href="image" attributeName="x" to="17%-35" />
   </use>
 
-    <g id="bottom-button" id="location_portable" pointer-events="visible">
+    <g id="bottom-button" id="location_portable" pointer-events="visible" visibility="hidden">
    	<circle id="circle" cx="50%" cy="80%" r="35" fill="fb-peach"/>
    	<text id="text" x="50%" y="99%" class= "comfyLabel">Portable</text>
     <circle id="circle_push" cx="50%" cy="80%" r="50" opacity="0" fill="red"/>
