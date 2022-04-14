@@ -8,7 +8,7 @@ import {sendEventIfReady} from "./send";
 import './clock'
 import './buzz'
 
-import questionsFlow from "../resources/flows/dorn-flow";
+import questionsFlow from "../resources/flows/activity-flow";
 
 // Import GUI elements
 const clockface = document.getElementById("clockface");
