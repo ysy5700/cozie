@@ -27,4 +27,18 @@ export default [
 			"images/icons/comfy.png",
 		],
 	},
+	{
+		name: "freshair",
+		type: "icon",
+		requiresAnswer: [],
+		questionText: "Would you prefer to be?",
+		questionSecondText: "",
+		iconText: ["Fresh air", "No change", " "],
+		iconColors: ["fb-cyan", "fb-green", "fb-black"],
+		iconImages: [
+			"images/icons/air/air_less_air.png",
+			"images/icons/comfy.png",
+			"images/icons/comfy.png",
+		],
+	},
 ];
