@@ -76,7 +76,7 @@ export default [
 		questionText: "What are you wearing?",
 		questionSecondText: "",
 		iconText: ["Light", "Heavy", "Medium"],
-		iconColors: ["#6decb9", "#42dee1", "#3fc5f0"],
+		iconColors: ["fb-peach", "fb-peach", "fb-peach"],
 		iconImages: [
 			"images/icons/clothing/light.png",
 			"images/icons/clothing/heavy.png",
@@ -89,7 +89,7 @@ export default [
 		requiresAnswer: [],
 		questionText: "Are you?",
 		questionSecondText: "",
-		iconText: ["Indoor", "Outdoor"],
+		iconText: ["Outdoor", "Indoor"],
 		iconColors: ["fb-peach", "fb-peach"],
 		iconImages: [
 			"images/icons/outdoor.png",
@@ -116,7 +116,7 @@ export default [
 		requiresAnswer: [],
 		questionText: "Which activity are you doing?",
 		questionSecondText: "",
-		iconText: ["Meeting(call)", "Work(focus)", "Coffee/Lunch"],
+		iconText: ["Call", "Work(focus)", "Coffee/Lunch"],
 		iconColors: ["fb-peach", "fb-peach", "fb-peach"],
 		iconImages: [
 			"images/icons/activitytype/call.png",
@@ -148,7 +148,7 @@ export default [
 		iconImages: [
 			"images/icons/activityintensity/middle.png",
 			"images/icons/activityintensity/high.png",
-			"images/icons/activitytype/resting.png",
+			"images/icons/activityintensity/resting.png",
 		],
 	},
 	{
@@ -169,10 +169,10 @@ export default [
 		name: "anyChange",
 		type: "icon",
 		requiresAnswer: [],
-		questionText: "Have you changed location,",
-		questionSecondText: "activity, clo in past 10-m?",
+		questionText: "Any changes in activity,",
+		questionSecondText: "clo, loc in past 10m?",
 		iconText: ["Yes", "No"],
-		iconColors: ["fb-green", "fb-orange"],
+		iconColors: ["fb-peach", "fb-peach"],
 		iconImages: [
 			"images/icons/anychanges/yes.png",
 			"images/icons/anychanges/no.png",
