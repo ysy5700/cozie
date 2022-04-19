@@ -75,12 +75,12 @@ export default [
 		requiresAnswer: [],
 		questionText: "What are you wearing?",
 		questionSecondText: "",
-		iconText: ["Light", "Heavy", "Medium"],
+		iconText: ["Medium", "Heavy", "Light"],
 		iconColors: ["fb-peach", "fb-peach", "fb-peach"],
 		iconImages: [
-			"images/icons/clothing/light.png",
-			"images/icons/clothing/heavy.png",
 			"images/icons/clothing/medium.png",
+			"images/icons/clothing/heavy.png",
+			"images/icons/clothing/light.png",
 		],
 	},
 	{
