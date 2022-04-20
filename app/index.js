@@ -42,7 +42,7 @@ import {
 import './clock'
 
 // import file containing question flow
-import totalFlow from "../resources/flows/main-flow";
+import totalFlow from "../resources/flows/fitness-flow";
 
 // question flow changes dynamically based on settings
 let questionsFlow = totalFlow
@@ -550,7 +550,7 @@ const bodyErrorLabel = errorLabel.getElementById("copy");
 // define what at what hour of the day each buzz option would buzz at
 const buzzOptions = {
     0: [],
-    1: [9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
+    1: [8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18],
     2: [9, 11, 13, 15, 17, 19, 21],
     3: [9, 12, 15, 18, 21]
 };
@@ -598,6 +598,7 @@ setInterval(function() {
         let i = 0;
         while (vibrationTimeArray[i] <= currentHour)
         {
+            console.log("hour :" + vibrationTimeArray[i]);
             const firstElement = vibrationTimeArray.shift();
             vibrationTimeArray.push(firstElement);
             i++;

@@ -12,7 +12,7 @@ import icon_velocity from '../resources/images/icons/air_vel_high.png';
 import icon_met from '../resources/images/icons/met_exercising.png';
 import icon_change from '../resources/images/icons/outdoor.png';
 
-import totalFlow from "../resources/flows/main-flow";
+import totalFlow from "../resources/flows/fitness-flow";
 
 // map names of the json-flow to imported icons
 // TODO: There is probably a better way to do this with the URL
@@ -91,7 +91,7 @@ function mySettings(props) {
                         {
                             name: "Every Hour",
                             value: "1",
-                            subLabel: "Between 9:00 - 21:00",
+                            subLabel: "Between 8:00 - 18:00",
                             img: sound
                         },
                         {
