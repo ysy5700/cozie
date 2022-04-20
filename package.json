@@ -25,10 +25,10 @@
       }
     },
     "defaultLanguage": "en-US",
-    "appUUID": "1ef995a9-ca67-4e76-b2c4-5d650a644c97"
+    "appUUID": "a914a8ca-4529-42b4-9a6d-ee054ce6653b"
   },
   "dependencies": {
-    "@fitbit/sdk": "~4.1.0",
+    "@fitbit/sdk": "~4.3.0",
     "@fitbit/sdk-cli": "^1.7.1"
   },
   "scripts": {
